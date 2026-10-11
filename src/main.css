@@ -1,0 +1,106 @@
+html {
+}
+
+body {
+  background: radial-gradient(
+    pink,
+    rgb(3, 158, 185),
+    white,
+    pink,
+    rgb(3, 158, 185)
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.navbar {
+  display: block;
+  box-sizing: border-box;
+  width: 100;
+  box-shadow:
+    0 0 2em 2em #f4aab9,
+    0 0 2em 4em #66ccff;
+  margin: 4em;
+  padding: 1em;
+  background: linear-gradient(
+    55deg,
+    hsl(24, 52%, 100%),
+    #4534,
+    rgb(211, 33, 55)
+  );
+  border-radius: 3em;
+}
+
+.navbar-menu {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  gap: 1em;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  padding: 2em;
+}
+.navbar-link {
+  background-color: rgb(132, 175, 136);
+  border-radius: 2em;
+  box-shadow: 0 0 0.5em 0.5em rgb(205, 231, 205);
+  font-size: large;
+  padding: 1em 5em;
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  box-shadow: 0 0 0.5em 0.5em rgb(20, 167, 20);
+}
+
+h1 {
+  text-align: center;
+  font-size: 6em;
+}
+.image {
+  display: inline-block;
+}
+
+.paragraph {
+  display: inline;
+}
+
+.imgp {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  padding: 1em;
+}
+
+.box {
+  min-height: 5em;
+  min-width: 5em;
+  background-color: #f4aab9;
+  overflow: hidden;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.b7 {
+  grid-column: span 2;
+}
+
+.image-container img {
+  width: auto;
+  height: auto;
+  padding: auto;
+  object-fit: contain;
+}
